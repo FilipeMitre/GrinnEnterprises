@@ -14,13 +14,7 @@
 </head>
 <body>
 
-    <h1>taxismo</h1>
-  <form>
-  <a href="https://www.youtube.com/">login
-  <a href="https://www.youtube.com/">cadastro do taxixista</a>
-  <a href= "https://www.youtube.com/">cadastro do usiario</a>
-  <a href="https://www.youtube.com/">configurações</a>
-  </form> 
+    <h1>taxismo</h1> 
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
