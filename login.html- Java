@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="taxi.png" type="image/x-icon">
-    <title>Login Taxi</title>
+    <link rel="shortcut icon" href="planta.jpg" type="image/x-icon">
+    <title>Grinn Login</title>
 
     <style>
 
@@ -39,12 +39,13 @@
 
     <form>
 
-        <h1>Bruh</h1>
+        <h1>Login</h1>
         <input type="text" placeholder="Login" id="login">
         <input type="password" placeholder="Senha" id="senha">
         <input type="submit" onclick="logar(); return false">
-        <a href="http://cadastro.php">cadastre-se</a>
-    </form> >
+
+    </form>
+
 
     <script>
 
