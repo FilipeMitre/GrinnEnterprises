@@ -9,10 +9,16 @@
 </head>
 <body>
 <?php
- $_POST["texto"]; 
- $_POST["Senha"];
+ $_POST["texto"];
+ $_POST["CPF"];
+ $_POST["Email"];
+ $_POST["Numero"];
+ $_POST["Local"];
+ $_POST["Csenha"];
+ $_POST["Fsenha"];
+ $_POST["funções"];
 ?>
 <h1>Você está cadastrado! Volte para a pagina de login para entrar no site</h1>
-<a href="index.html"><button>voltar</button></a>
+<a href="login.html"><button>voltar</button></a>
 </body>
 </html>
