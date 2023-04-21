@@ -3,21 +3,32 @@ h1{
     color: white;
     font-family: Lucida Console;
     text-align: center;
-    }
-    
-    form{
+}
+.opi{
         text-align: right;
-    }
+        position: relative;
+        bottom: 45px;
+}
     
-    
-    a{
-        padding: 10px;
+a{
+        padding: 5px;
         text-decoration: none;
-        color: black;
-        border: 2px solid;
+        color: rgb(245, 244, 242);
+        font-size: 15px;
     
-    }
-    form a:hover{
+}
+form a:hover{
         background-color: yellow;
         text-decoration: none;
-    }
+}
+.carousel-control-prev{
+        border: none;
+        opacity: 0;
+}
+.carousel-control-next{
+        border: none;
+        opacity: 0;
+}
+body{
+ overflow-x: hidden;
+}
