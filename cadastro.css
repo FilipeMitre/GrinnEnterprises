@@ -1,19 +1,19 @@
 h1{
-  text-align: center;
-  font-size: 50px;
-}
-
-form{
     text-align: center;
-    background-color:rgb(94, 212, 94);
-    margin-left: 350px;
-    margin-right: 350px;
-    
-}
-label{
-    margin-right: 155px;
-}
-
-body{
-    background-color: rgb(253, 253, 36);
-}
+    font-size: 50px;
+  }
+  
+  form{
+      text-align: center;
+      background-color:rgb(94, 212, 94);
+      margin-left: 350px;
+      margin-right: 350px;
+      
+  }
+  label{
+      margin-right: 155px;
+  }
+  
+  body{
+      background-color: rgb(253, 253, 36);
+  }
