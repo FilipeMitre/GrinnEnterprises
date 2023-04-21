@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +14,6 @@
   <form>
     <a href="colheita.html">Prestador de serviços de colheita</a>
     <a href="poda.html">Prestador de serviços de poda</a>
-    <a href="terreno.html">Prestador de serviços de preparação de terrenos</a>
     <a href="semear.html">Prestador de serviços de semeadura</a>
   </form>
   </body>
