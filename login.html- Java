@@ -14,7 +14,7 @@
 
     <form>
 
-        <h1>Login</h1>
+        <h1>Grinn</h1>
         <input type="text" placeholder="Login" id="login">
         <input type="password" placeholder="Senha" id="senha">
         <input type="submit" onclick="logar(); return false">
