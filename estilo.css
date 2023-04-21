@@ -1,0 +1,34 @@
+h1{
+    background-image: linear-gradient(to right,rgb(19, 19, 172), rgb(6, 163, 6));
+    color: white;
+    font-family: Lucida Console;
+    text-align: center;
+}
+.opi{
+        text-align: right;
+        position: relative;
+        bottom: 45px;
+}
+    
+a{
+        padding: 5px;
+        text-decoration: none;
+        color: rgb(245, 244, 242);
+        font-size: 15px;
+    
+}
+form a:hover{
+        background-color: yellow;
+        text-decoration: none;
+}
+.carousel-control-prev{
+        border: none;
+        opacity: 0;
+}
+.carousel-control-next{
+        border: none;
+        opacity: 0;
+}
+body{
+ overflow-x: hidden;
+}
