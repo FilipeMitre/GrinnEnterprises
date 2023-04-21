@@ -4,21 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
+    <link rel="stylesheet" href="pcadastro.css">
 </head>
 <body>
-
-    <style> </style>
-    <form action="cadastro.php" method="post">
-        <h1>cadastre-se</h1>
-        <input type="text"  placeholder="Login" name="texto"><br>
-        <input type="text"  placeholder="CPF" name="texto"><br>
-        <input type="email" placeholder="Email" name="texto"><br>
-        <input type="number"placeholder="Numero" name="texto"><br>
-        <input type="text"  placeholder="local" name="texto"><br>
-        <input type="password"  placeholder="crie uma senha" name="texto"><br>
-        <input type="password" placeholder="comfirme sua senha"  name="Senha"><br>
-         <button>enviar</button>
+    <!--formulario de cadastro para o registro de cada função do trbalho--> 
+<h1>cadastre-se</h1> 
+    <form action="cadastro.php" method="post">   
+        <label>Login:</label><br>
+        <input type="text"  placeholder="Login" name="texto"></label><br><br>
+            
+        <label style="margin-right: 150px;">CPF:</label><br>
+            <input type="text"  placeholder="CPF" name="CPF"><br><br>
+               
+            <label >Email:</label><br>
+                <input type="email" placeholder="Email" name="Email"><br><br>
+                    
+                <label style="margin-left: 15px;" >Numero:</label><br>
+                    <input type="number"placeholder="Numero" name="Numero"><br><br>
+                       
+                    <label >Local:</label><br>
+                        <input type="text"  placeholder="local" name="Local"><br><br>
+                            
+                        <label style="margin-left: 60px;">Crie uma senha:</label><br>
+                         <input type="password"  placeholder="crie uma senha" name="Csenha"><br><br>
+                             
+                         <label style="margin-left: 100px;">Confirme a sua senha:</label><br>
+                                <input type="password" placeholder="comfirme sua senha"  name="Fsenha"><br>
+                                    
+                                <h4>Qual função você exerce</h4> 
+                                        <select name="funções">
+                                          <option selected disabled value="">Selecione qual função você exerce</option>
+                                          <option value="prestador de serviços de colheita">prestador de serviços de colheita</option>  
+                                          <option value="prestador de serviços de poda">prestador de serviços de poda</option>  
+                                          <option value="prestador de serviços de preparação de terrenos">prestador de serviços de preparação de terrenos</option>  
+                                          <option value="prestador de serviços de semeadura">prestador de serviços de semeadura</option>  
+                                        </select><br><br>
+                                                    <button>Enviar cadastro</button>             
     </form>
 </body>
 </html>
