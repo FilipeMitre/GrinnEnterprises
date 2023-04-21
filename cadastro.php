@@ -20,6 +20,8 @@
  $_POST["funções"];
 ?>
 <h1>Você está cadastrado! Volte para a pagina de login para entrar no site</h1>
-<a href="login.html"><button>voltar</button></a>
+<center>
+<a href="login.html"><button>Voltar</button></a>
+</center>
 </body>
 </html>
