@@ -1,0 +1,35 @@
+h1{
+    background-image: linear-gradient(to right,rgb(19, 19, 172), rgb(6, 163, 6));
+    color: white;
+    font-family: Lucida Console;
+    text-align: center;
+    position: relative;
+    bottom: 22px;
+    padding: 8px;
+    font-size: 35px;
+}
+
+a{
+
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    max-width: 100%;
+    margin-left: 500px;
+    border: 2px solid white;
+    border-radius: 1px;
+}
+
+body{
+    overflow-x: hidden;
+    background-image: url(img/depositphotos_157797820-stock-photo-agricultural-soy-plantation-on-sunny.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+h4{
+    text-align: justify;
+}
+
