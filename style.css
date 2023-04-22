@@ -29,6 +29,25 @@ form a:hover{
         border: none;
         opacity: 0;
 }
+
+
 body{
  overflow-x: hidden;
 }
+
+iframe{
+        margin-left: 380px;
+}
+
+body{
+        background-image: url(img/istockphoto-836120978-612x612.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+h2{
+        color: white;
+}
+
+
+        
+
