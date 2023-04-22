@@ -18,9 +18,12 @@ input{
     margin: 10px auto;
     width: 250px;
     height: 30px;
-    border: 1px solid rgba(255, 255, 0, 0.767);
+    border: 1px solid white;
 }
 
 body{
-    background-color: green;
+    background-image: url(img/depositphotos_157797820-stock-photo-agricultural-soy-plantation-on-sunny.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
 }
