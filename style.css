@@ -47,7 +47,28 @@ body{
 h2{
         color: white;
 }
+@media screen and (max-width: 680px) {   
+iframe{
+        position: relative;
+        right: 350px;
+        width: 430px;
+        height: 200px;
+}
 
+.opi{
+        position: absolute;
+        margin-bottom:450px;
+
+}
+
+#carouselExampleDark{
+        top: 14px;
+}
+h2{
+        margin-top: 10px;
+}
+
+}
 
         
 
