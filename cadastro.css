@@ -5,7 +5,7 @@ h1{
   }
   
   label{
-      margin-right: 155px;
+      margin-right: 10%;
   }
   
   body{
@@ -15,9 +15,44 @@ h1{
   }
 
 #radio{
+    
     text-align: center;
     color: white;
-    margin-left: 350px;
-    margin-right: 350px;
-    border-radius: 5px;
+    
+}
+
+@media screen and (max-width: 680px) {
+    label{
+        margin-right: 35%;
+    }
+#radio{
+    text-align: left;
+}
+h1{
+    text-align: left;
+}
+.p1{
+margin-right: 130px;
+}
+.p2{
+
+}
+.p3{
+    margin-right: 130px;
+}
+.p4{
+margin-right: 130px;
+}
+.p5{
+    margin-right: 130px;
+}
+.p6{
+    right:  60px;
+    position: relative;
+}
+.p7{
+  right: 90px;
+  position: relative;
+}
+ 
 }
