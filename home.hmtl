@@ -1,42 +1,107 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="planta.jpg" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/planta.jpg" type="image/x-icon" />
     <title>Grinn.com</title>
-    <link rel="stylesheet" href="homes.css">
-</head>
-<body>
-  <h1>Grinn</h1>
- <!--sobre cada prestador de serviço-->
-  <h4>
-    <h2>presrtador de serviço de colheita</h2>
-    Um prestador de serviço de colheita é responsável por realizar a colheita de culturas agrícolas, utilizando técnicas e equipamentos adequados para garantir um processo eficiente e seguro. As atividades que podem ser desempenhadas por um prestador de serviço de colheita incluem:<br>
-        * Preparação dos equipamentos: antes de iniciar a colheita, é preciso preparar os equipamentos adequados para o tipo de cultivo a ser colhido, como colheitadeiras, tratores, colhedores manuais, entre outros;<br>
-        * Verificação das condições climáticas: é importante realizar a colheita em condições climáticas adequadas, evitando chuvas ou ventos fortes que possam afetar a qualidade dos grãos ou danificar as plantas;<br>
-        * Realização da colheita: a colheita propriamente dita envolve a retirada dos frutos, grãos ou outras partes da planta que serão comercializados, seja de forma manual ou mecânica, dependendo da cultura e do tipo de equipamento utilizado;<br>
-        * Limpeza dos equipamentos: após a colheita, os equipamentos utilizados devem ser limpos e higienizados adequadamente para garantir o seu bom funcionamento e evitar problemas na próxima colheita. <br>
-        *Atividade de derrubada da árvore, retirada dos galhos e corte nos comprimentos pré-definidos. Pode ser realizada através de máquinas específicas para a geração de toras.<br><br><br>
-                                                                                <a href="#">Prestador de serviços de colheita</a><br><br><br>            
-    <h2>prestador de serviço de poda</h2>
-    Um prestador de serviço de poda é responsável por realizar a poda de árvores e plantas em áreas urbanas ou rurais, utilizando técnicas e equipamentos adequados para garantir a segurança e a saúde das plantas, além de manter o ambiente esteticamente agradável. As atividades que podem ser desempenhadas por um prestador de serviço de poda incluem:<br>
-        * Avaliação das condições das plantas: antes de realizar a poda, é preciso avaliar as condições das plantas, verificando se há partes mortas, doentes ou danificadas que precisam ser removidas;<br>
-        * Escolha das ferramentas: é importante escolher as ferramentas adequadas para cada tipo de poda, como tesouras, serras ou podadores de galhos;<br>
-        * Determinação do tipo de poda: existem vários tipos de poda, como a poda de formação, poda de limpeza, poda de renovação, entre outras, e é importante determinar qual o tipo de poda mais adequado para cada planta e para as condições do ambiente em que ela está inserida;<br>
-        * Execução da poda: a poda deve ser realizada de forma cuidadosa e precisa, para evitar danos às plantas e garantir uma boa cicatrização dos cortes;<br>
-        * Descarte dos resíduos: após a poda, os resíduos devem ser removidos e descartados adequadamente, evitando danos ao meio ambiente e às pessoas. <br><br><br>
-                                                                                <a href="#">Prestador de serviços de poda</a><br><br><br>
-    <h2>prestador de serviço de semeadura</h2>
-    Um prestador de serviço de semeadura é responsável por realizar a semeadura de sementes em áreas agrícolas, utilizando técnicas e equipamentos adequados para garantir uma boa distribuição das sementes e uma germinação uniforme. Entre as atividades que podem ser desempenhadas por um prestador de serviço de semeadura, incluem-se:<br>
-        * Preparação do solo: antes de realizar a semeadura, é preciso preparar o solo adequadamente, realizando a aração, a gradagem e outras atividades que permitam uma boa aeração e umidade do solo, além de remover possíveis impurezas ou detritos que possam prejudicar o desenvolvimento das sementes;<br>
-        *Escolha das sementes: é importante escolher as sementes adequadas para cada tipo de cultura e para as condições climáticas e de solo da região onde serão semeadas;<br>
-        *Calibração de equipamentos: os equipamentos utilizados para a semeadura, como as semeadoras mecânicas ou as máquinas de plantio direto, precisam ser calibrados de forma adequada para garantir a distribuição correta das sementes;<br>
-        *Aplicação de fertilizantes: em alguns casos, pode ser necessário aplicar fertilizantes ou outros insumos na área de semeadura para garantir o desenvolvimento das plantas;<br>
-        *Monitoramento da germinação: após a semeadura, é importante monitorar a germinação das sementes e tomar medidas para corrigir possíveis problemas que possam afetar o desenvolvimento das plantas. <br><br>
-                                                                                <a href="#">Prestador de serviços de semeadura</a><br><br>
+    <link rel="stylesheet" href="hom.css" />
+  </head>
+  <body>
+    <h1>Grinn</h1>
+    <!--sobre cada prestador de serviço-->
+    <h4>
+      <h2>Prestador de serviço de colheita</h2>
 
-   </h4>
+      Um prestador de serviço de colheita é responsável por realizar a colheita
+      de culturas agrícolas, utilizando técnicas e equipamentos adequados para
+      garantir um processo eficiente e seguro. As atividades que podem ser
+      desempenhadas por um prestador de serviço de colheita incluem:<br />
+
+      * Preparação dos equipamentos: antes de iniciar a colheita, é preciso
+      preparar os equipamentos adequados para o tipo de cultivo a ser colhido,
+      como colheitadeiras, tratores, colhedores manuais, entre outros;<br />
+
+      * Verificação das condições climáticas: é importante realizar a colheita
+      em condições climáticas adequadas, evitando chuvas ou ventos fortes que
+      possam afetar a qualidade dos grãos ou danificar as plantas;<br />
+
+      * Realização da colheita: a colheita propriamente dita envolve a retirada
+      dos frutos, grãos ou outras partes da planta que serão comercializados,
+      seja de forma manual ou mecânica, dependendo da cultura e do tipo de
+      equipamento utilizado;<br />
+
+      * Limpeza dos equipamentos: após a colheita, os equipamentos utilizados
+      devem ser limpos e higienizados adequadamente para garantir o seu bom
+      funcionamento e evitar problemas na próxima colheita. <br />
+
+      *Atividade de derrubada da árvore, retirada dos galhos e corte nos
+      comprimentos pré-definidos. Pode ser realizada através de máquinas
+      específicas para a geração de toras.<br /><br /><br />
+
+      <a href="#">Prestador de serviços de colheita</a><br /><br /><br />
+      <h2>Prestador de serviço de poda</h2>
+
+      Um prestador de serviço de poda é responsável por realizar a poda de
+      árvores e plantas em áreas urbanas ou rurais, utilizando técnicas e
+      equipamentos adequados para garantir a segurança e a saúde das plantas,
+      além de manter o ambiente esteticamente agradável. As atividades que podem
+      ser desempenhadas por um prestador de serviço de poda incluem:<br />
+
+      * Avaliação das condições das plantas: antes de realizar a poda, é preciso
+      avaliar as condições das plantas, verificando se há partes mortas, doentes
+      ou danificadas que precisam ser removidas;<br />
+
+      * Escolha das ferramentas: é importante escolher as ferramentas adequadas
+      para cada tipo de poda, como tesouras, serras ou podadores de galhos;<br />
+
+      * Determinação do tipo de poda: existem vários tipos de poda, como a poda
+      de formação, poda de limpeza, poda de renovação, entre outras, e é
+      importante determinar qual o tipo de poda mais adequado para cada planta e
+      para as condições do ambiente em que ela está inserida;<br />
+
+      * Execução da poda: a poda deve ser realizada de forma cuidadosa e
+      precisa, para evitar danos às plantas e garantir uma boa cicatrização dos
+      cortes;<br />
+
+      * Descarte dos resíduos: após a poda, os resíduos devem ser removidos e
+      descartados adequadamente, evitando danos ao meio ambiente e às pessoas.
+      <br /><br /><br />
+
+      <a href="#">Prestador de serviços de poda</a><br /><br /><br />
+      <h2>Prestador de serviço de semeadura</h2>
+
+      Um prestador de serviço de semeadura é responsável por realizar a
+      semeadura de sementes em áreas agrícolas, utilizando técnicas e
+      equipamentos adequados para garantir uma boa distribuição das sementes e
+      uma germinação uniforme. Entre as atividades que podem ser desempenhadas
+      por um prestador de serviço de semeadura, incluem-se:<br />
+
+      * Preparação do solo: antes de realizar a semeadura, é preciso preparar o
+      solo adequadamente, realizando a aração, a gradagem e outras atividades
+      que permitam uma boa aeração e umidade do solo, além de remover possíveis
+      impurezas ou detritos que possam prejudicar o desenvolvimento das
+      sementes;<br />
+
+      *Escolha das sementes: é importante escolher as sementes adequadas para
+      cada tipo de cultura e para as condições climáticas e de solo da região
+      onde serão semeadas;<br />
+
+      *Calibração de equipamentos: os equipamentos utilizados para a semeadura,
+      como as semeadoras mecânicas ou as máquinas de plantio direto, precisam
+      ser calibrados de forma adequada para garantir a distribuição correta das
+      sementes;<br />
+
+      *Aplicação de fertilizantes: em alguns casos, pode ser necessário aplicar
+      fertilizantes ou outros insumos na área de semeadura para garantir o
+      desenvolvimento das plantas;<br />
+
+      *Monitoramento da germinação: após a semeadura, é importante monitorar a
+      germinação das sementes e tomar medidas para corrigir possíveis problemas
+      que possam afetar o desenvolvimento das plantas. <br /><br />
+
+      <a href="#">Prestador de serviços de semeadura</a><br /><br />
+    </h4>
   </body>
-  </html>
+</html>
