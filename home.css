@@ -4,7 +4,7 @@ h1 {
   font-family: Lucida Console;
   text-align: center;
   position: relative;
-  bottom: 22px;
+  bottom: 25px;
   padding: 8px;
   font-size: 35px;
 }
@@ -33,9 +33,8 @@ body {
 h4 {
   text-align: justify;
 }
-@media all and (max-width: 1280px) {
+@media all and (max-width: 1000px) {
   a {
-    padding-bottom: 10px;
     position: absolute;
     margin-left: 50%;
     transform: translate(-50%, 0%);
