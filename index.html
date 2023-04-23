@@ -1,74 +1,162 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="planta.jpg" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="img/planta.jpg" type="image/x-icon" />
     <title>Grinn.com</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="estilu.css">
-</head>
-<body>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  <!--forms para as opções na parte superior a direita do site -->
-  <h1>Grinn</h1>
-  <form class="opi">
-    <a href="login.html" >Login</a>
-    <a href="cadastroE.html">Cadastro empresarial</a>
-    <a href="cadastroF.html">Cadastro de prestador de serviço</a>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!--forms para as opções na parte superior a direita do site -->
+    <h1>Grinn</h1>
+    <form class="opi">
+      <a href="login.html">Login</a>
+      <a href="cadastroE.html">Cadastro empresarial</a>
+      <a href="cadastroF.html">Cadastro de prestador de serviço</a>
     </form>
-    
+
     <!--carrosel do bootstrap 5-->
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" style="width: auto; height: auto; position: relative; bottom: 32px;">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="10000">
-      <img src="img/5-fatores-importantes-para-a-semeadura-da-soja-thumbnail.webp" class="d-block w-100" alt="" style="height: 450px;">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Prestador de serviço de colheita</h5>
-        <p>Prestador ou prestadora de serviços de colheita é o profissional que executa o serviço de colheita de produtos agrícolas realizado sob contrato.</p>
+    <div
+      id="carouselExampleDark"
+      class="carousel carousel-dark slide"
+      data-bs-ride="carousel"
+      style="width: auto; height: auto; position: relative; bottom: 32px"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
       </div>
-    </div>
-    <div class="carousel-item" data-bs-interval="2000">
-      <img src="img/quanto-custa-podar-arvores.jpg" class="d-block w-100" alt="" style="height: 450px;">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Prestador de serviço de poda</h5>
-        <p>Prestador ou prestadora de serviços de poda é o profissional que executa o serviço de poda de árvores realizado sob contrato.</p>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img
+            src="img/colheita.JPG"
+            class="d-block w-100"
+            alt=""
+            style="height: 450px"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Prestador de serviço de colheita</h5>
+            <p>
+              Prestador ou prestadora de serviços de colheita é o profissional
+              que executa o serviço de colheita de produtos agrícolas realizado
+              sob contrato.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="img/poda.JPG"
+            class="d-block w-100"
+            alt=""
+            style="height: 450px"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Prestador de serviço de poda</h5>
+            <p>
+              Prestador ou prestadora de serviços de poda é o profissional que
+              executa o serviço de poda de árvores realizado sob contrato.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/semeadura.JPG"
+            class="d-block w-100"
+            alt=""
+            style="height: 450px"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Prestador de serviço de semeadura</h5>
+            <p>
+              Prestador ou prestadora de serviços de semeadura é o profissional
+              que executa a colocação das sementes na terra sob contrato.
+            </p>
+          </div>
+        </div>
       </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="carousel-item">
-      <img src="img/colheitasojagilson_059-640x427.jpg" class="d-block w-100" alt="" style="height: 450px;">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Prestador de serviço de semeadura</h5>
-        <p>Prestador ou prestadora de serviços de semeadura é o profissional que executa a colocação das sementes na terra sob contrato.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-<!--sobre o projeto-->
-<h2>
-  Sobre Nós:<br>
-  O projeto Grinn foi criado pensando em garantir uma maior visibilidade de alguns tipos de prestadores de serviços e facilitar o acordo de contratos com empresas.
-</h2><br><br>
-<!-- video promocional do site-->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ATy2xzDiIHA?start=16" title="YouTube video player" frameborder="0" 
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</body>
+    <!--sobre o projeto-->
+    <h2>
+      Sobre Nós:<br />
+      O projeto Grinn foi criado pensando em garantir uma maior visibilidade de
+      alguns tipos de prestadores de serviços e facilitar o acordo de contratos
+      com empresas.
+    </h2>
+    <br /><br />
+    <!-- video promocional do site-->
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/ATy2xzDiIHA?start=16"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  </body>
 </html>
