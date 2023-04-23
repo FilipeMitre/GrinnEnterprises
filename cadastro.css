@@ -1,58 +1,57 @@
-h1{
-    text-align: center;
-    font-size: 50px;
-    color: white;
-  }
-  
-  label{
-      margin-right: 10%;
-  }
-  
-  body{
-      background-image: url(img/istockphoto-836120978-612x612.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-  }
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
 
-#radio{
-    
-    text-align: center;
-    color: white;
-    
+label {
+  margin-right: 10%;
+}
+
+body {
+  background-image: url(img/plantacion.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#radio {
+  text-align: center;
+  color: white;
 }
 
 @media screen and (max-width: 680px) {
-    label{
-        margin-right: 35%;
-    }
-#radio{
+  label {
+    margin-right: 35%;
+  }
+  #radio {
     text-align: left;
-}
-h1{
+  }
+  h1 {
     text-align: left;
-}
-.p1{
-margin-right: 130px;
-}
-.p2{
-
-}
-.p3{
+  }
+  .p1 {
     margin-right: 130px;
-}
-.p4{
-margin-right: 130px;
-}
-.p5{
+  }
+  .p2 {
     margin-right: 130px;
-}
-.p6{
-    right:  60px;
+  }
+  .p3 {
+    margin-right: 130px;
+  }
+  .p4 {
+    margin-right: 130px;
+  }
+  .p5 {
+    margin-right: 130px;
+  }
+  .p6 {
+    right: 60px;
     position: relative;
-}
-.p7{
-  right: 90px;
-  position: relative;
-}
- 
+  }
+  .p7 {
+    right: 90px;
+    position: relative;
+  }
 }
