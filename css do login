@@ -1,29 +1,38 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
-    width: 100%;
-    height: 100%;
+body {
+  width: 100%;
+  height: 100%;
 }
 
-form{
-    width: 300px;
-    margin: 200px auto;
-    text-align: center;
+form {
+  width: 300px;
+  margin: 200px auto;
+  text-align: center;
 }
 
-input{
-    display: block;
-    margin: 10px auto;
-    width: 250px;
-    height: 30px;
-    border: 1px solid white;
+input {
+  display: block;
+  margin: 10px auto;
+  width: 250px;
+  height: 30px;
+  border: 1px solid white;
 }
 
-body{
-    background-image: url(img/depositphotos_157797820-stock-photo-agricultural-soy-plantation-on-sunny.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow-x: hidden;
+body {
+  background-image: url(img/prado.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  overflow-x: hidden;
+}
+@media all and (max-width: 1280px) {
+  input {
+    position: relative;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+  }
 }
