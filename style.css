@@ -14,8 +14,7 @@ a{
         padding: 5px;
         text-decoration: none;
         color: rgb(245, 244, 242);
-        font-size: 15px;
-    
+        font-size: 15px; 
 }
 form a:hover{
         background-color: yellow;
@@ -30,11 +29,6 @@ form a:hover{
         opacity: 0;
 }
 
-
-body{
- overflow-x: hidden;
-}
-
 iframe{
         margin-left: 380px;
 }
@@ -43,21 +37,24 @@ body{
         background-image: url(img/istockphoto-836120978-612x612.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        overflow-x: hidden;
+        background-attachment: fixed;
 }
 h2{
         color: white;
 }
+
 @media screen and (max-width: 680px) {   
 iframe{
         position: relative;
         right: 350px;
-        width: 430px;
+        width: 300px;
         height: 200px;
 }
 
 .opi{
         position: absolute;
-        margin-bottom:450px;
+        margin-bottom:600px;
 
 }
 
@@ -67,8 +64,8 @@ iframe{
 h2{
         margin-top: 10px;
 }
-
 }
 
-        
 
+
+        
