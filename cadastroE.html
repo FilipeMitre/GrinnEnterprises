@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="planta.jpg" type="image/x-icon">
+    <title>Grinn</title>
+    <link rel="stylesheet" href="cadastroph.css">
+</head>
+<body>
+    <!--formulario de cadastro para o registro de cada função do trbalho--> 
+<h1>Cadastre-se</h1> 
+   <div id="radio">
+<form action="cadastro.php" method="post">   
+        <label>Login:</label><br>
+        <input type="text"  placeholder="Login" name="texto" required></label><br><br>
+            
+        <label style="margin-right: 150px;">CPF:</label><br>
+            <input type="text"  placeholder="CPF" name="CPF" required><br><br>
+               
+            <label >Email:</label><br>
+                <input type="email" placeholder="Email" name="Email" required><br><br>
+                    
+                <label style="margin-left: 15px;" >Numero:</label><br>
+                    <input type="number"placeholder="Numero" name="Numero" required><br><br>
+                       
+                    <label >Local:</label><br>
+                        <input type="text"  placeholder="Local" name="Local" required><br><br>
+                            
+                        <label style="margin-left: 60px;">Crie uma senha:</label><br>
+                            <input type="password"  placeholder="Crie uma senha" name="Csenha" required><br><br>
+                             
+                         <label style="margin-left: 100px;">Confirme a sua senha:</label><br>
+                                <input type="password" placeholder="Confirme sua senha"  name="Fsenha" required><br>
+                                    
+                                <h4>Com qual desses serviços você trabalha</h4> 
+                                        <select name="Funções" required>
+                                          <option selected disabled value="">Selecione qual tipo de prestação você trabalha</option>
+                                          <option value="prestador de serviços de colheita">Prestador de serviços de colheita</option>  
+                                          <option value="prestador de serviços de poda">Prestador de serviços de poda</option>  
+                                          <option value="prestador de serviços de semeadura">Prestador de serviços de semeadura</option>  
+                                        </select><br>
+                                                                <h4>Mande seu curriculo</h4>
+                                        <input type="file" id="myfile"><br><br>
+                                                                <button>Enviar cadastro</button>
+                                                    
+        </form>
+    </div>
+</body>
+</html>
