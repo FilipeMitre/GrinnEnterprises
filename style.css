@@ -1,0 +1,83 @@
+h1 {
+  background-image: linear-gradient(to right, rgb(19, 19, 172), rgb(6, 163, 6));
+  color: white;
+  font-family: Lucida Console;
+  text-align: center;
+}
+.opi {
+  text-align: right;
+  position: relative;
+  bottom: 45px;
+}
+
+a {
+  padding: 5px;
+  text-decoration: none;
+  color: rgb(245, 244, 242);
+  font-size: 15px;
+}
+form a:hover {
+  background-color: yellow;
+  text-decoration: none;
+}
+.carousel-control-prev {
+  border: none;
+  opacity: 0;
+}
+.carousel-control-next {
+  border: none;
+  opacity: 0;
+}
+
+iframe {
+  margin-left: 400px;
+}
+
+body {
+  background-color: green;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  background-attachment: fixed;
+  background-position: center;
+}
+section {
+  color: white;
+  background-color: rgba(1, 19, 1, 0.534);
+}
+
+@media all and (max-width: 1000px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  iframe {
+    position: relative;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+    width: 100%;
+    height: 25%;
+  }
+
+  .opi {
+    position: relative;
+    margin-bottom: 5px;
+    margin-top: 50px;
+  }
+
+  #carouselExampleDark {
+    top: 14px;
+  }
+  h2 {
+    margin-top: 10px;
+  }
+  .carouselExampleDark {
+    position: relative;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+  }
+}
