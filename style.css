@@ -41,10 +41,11 @@ body {
   background-attachment: fixed;
   background-position: center;
 }
-section {
+.nos {
   color: white;
   background-color: rgba(1, 19, 1, 0.534);
   text-align: justify;
+  font-size: 1%;
 }
 
 @media all and (max-width: 1000px) {
