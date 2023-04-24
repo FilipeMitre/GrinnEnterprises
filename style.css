@@ -44,6 +44,7 @@ body {
 section {
   color: white;
   background-color: rgba(1, 19, 1, 0.534);
+  text-align: justify;
 }
 
 @media all and (max-width: 1000px) {
